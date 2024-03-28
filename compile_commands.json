@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/seidko/dev/clash-mate/qml",
+  "command": "/usr/bin/c++  -I/usr/include/qt6/QtCore -I/usr/include/qt6 -I/usr/include/qt6/QtGui -I/usr/include/qt6/QtDBus -I/usr/include/qt6/QtQuick -I/usr/include/qt6/QtQml -I/usr/include/qt6/QtQmlIntegration -I/usr/include/qt6/QtNetwork -I/usr/include/qt6/QtQmlModels -I/usr/include/qt6/QtOpenGL  -o CMakeFiles/qmlapp.dir/app.cpp.o -c /home/seidko/dev/clash-mate/qml/app.cpp",
+  "file": "/home/seidko/dev/clash-mate/qml/app.cpp",
+  "output": "qml/CMakeFiles/qmlapp.dir/app.cpp.o"
+},
+{
+  "directory": "/home/seidko/dev/clash-mate/qml",
+  "command": "/usr/bin/c++  -I/usr/include/qt6/QtCore -I/usr/include/qt6 -I/usr/include/qt6/QtGui -I/usr/include/qt6/QtDBus -I/usr/include/qt6/QtQuick -I/usr/include/qt6/QtQml -I/usr/include/qt6/QtQmlIntegration -I/usr/include/qt6/QtNetwork -I/usr/include/qt6/QtQmlModels -I/usr/include/qt6/QtOpenGL  -o CMakeFiles/qmlapp.dir/viewer.cpp.o -c /home/seidko/dev/clash-mate/qml/viewer.cpp",
+  "file": "/home/seidko/dev/clash-mate/qml/viewer.cpp",
+  "output": "qml/CMakeFiles/qmlapp.dir/viewer.cpp.o"
+}
+]
