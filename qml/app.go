@@ -1,8 +1,8 @@
 package qml
 
-// #cgo CXXFLAGS: -g -I/usr/include/qt6/QtWidgets -I/usr/include/qt6/QtGui -I/usr/include/qt6/QtCore -I/usr/include/qt6
-// #cgo LDFLAGS: -L${SRCDIR} -lstdc++ -lqmlapp -L/usr/lib -lQt6Core -lQt6Widgets -lQt6Gui -lQt6Quick -lQt6Qml
-// #include "app.hpp"
+// #cgo CXXFLAGS: -g
+// #cgo LDFLAGS: -L${SRCDIR} -lqmlapp
+// #include "app.h"
 // #include <stdlib.h>
 import "C"
 import "unsafe"

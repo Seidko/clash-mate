@@ -1,9 +1,9 @@
 package qml
 
 // #cgo CFLAGS: -g
-// #cgo CPPFLAGS: -g -I/usr/include/c++/13.2.1/ -I/usr/include/qt6/QtWidgets -I/usr/include/qt6/QtGui -I/usr/include/qt6/QtCore -I/usr/include/qt6
-// #cgo LDFLAGS: -L${SRCDIR}/qml -lqmlapp -lstdc++
-// #include "viewer.hpp"
+// #cgo CPPFLAGS: -g
+// #cgo LDFLAGS: -L${SRCDIR}/qml -lqmlapp
+// #include "viewer.h"
 // #include <stdlib.h>
 import "C"
 import (
