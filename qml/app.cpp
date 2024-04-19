@@ -4,6 +4,7 @@
 #include <QtCore/QString>
 #include <QtCore/QByteArray>
 #include <QtCore/QList>
+#include <QtQml/QQmlApplicationEngine>
 
 extern "C" {
 void *NewApplication(int argc, char **argv) {

@@ -1,20 +1,11 @@
 package qml
 
-// // #cgo CFLAGS: -x c++
 // #cgo CXXFLAGS: -g -I/usr/include/qt6/QtWidgets -I/usr/include/qt6/QtGui -I/usr/include/qt6/QtCore -I/usr/include/qt6
-// #cgo LDFLAGS: -L${SRCDIR} -lqmlapp
+// #cgo LDFLAGS: -L${SRCDIR} -lstdc++ -lqmlapp -L/usr/lib -lQt6Core -lQt6Widgets -lQt6Gui -lQt6Quick -lQt6Qml
 // #include "app.hpp"
 // #include <stdlib.h>
 import "C"
 import "unsafe"
-
-type Application struct {
-	ptr unsafe.Pointer
-}
-
-type Attribute int64
-
-type FontWeight int32
 
 func NewApplication(argv []string) Application {
 	argc := len(argv)
