@@ -1,4 +1,4 @@
-find_package(Qt6 REQUIRED COMPONENTS Core Qml Quick Core Gui Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Quick Qml)
 
 qt_add_library(
     qmlapp
