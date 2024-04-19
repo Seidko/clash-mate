@@ -1,4 +1,4 @@
-find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Quick Qml)
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Quick Qml Core)
 
 qt_add_library(
     qmlapp
@@ -8,4 +8,4 @@ qt_add_library(
 )
 
 include_directories(${Qt6_INCLUDE_DIRS} ${Qt6Core_INCLUDE_DIRS} ${Qt6Gui_INCLUDE_DIRS} ${Qt6Quick_INCLUDE_DIRS})
-# target_link_libraries(qmlapp Qt6::Qml Qt6::Quick Qt6::Core Qt6::Gui Qt6::Widgets)
+target_link_libraries(qmlapp Qt6::Qml Qt6::Quick Qt6::Core Qt6::Gui Qt6::Widgets)
