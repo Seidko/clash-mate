@@ -1,7 +1,7 @@
 package qml
 
-// #cgo CXXFLAGS: -g
-// #cgo LDFLAGS: -L${SRCDIR} -lqmlapp
+// #cgo CXXFLAGS: -g -I/usr/include/qt6
+// #cgo LDFLAGS: -L${SRCDIR} -L/usr/lib -lQt6Qml -lQt6Core -lQt6Gui -lQt6Quick -lQt6Widgets -lqmlapp
 // #include "app.h"
 // #include <stdlib.h>
 import "C"

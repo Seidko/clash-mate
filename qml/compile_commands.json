@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/seidko/dev/clash-mate/qml",
-  "command": "/usr/bin/c++  -I/home/seidko/dev/clash-mate/qml/LINUX -I/usr/include/qt6 -I/usr/include/qt6/QtWidgets -I/usr/include/qt6/QtGui -I/usr/include/qt6/QtCore -I/usr/include/qt6/QtQuick  -o CMakeFiles/qmlapp.dir/app.o -c /home/seidko/dev/clash-mate/qml/app.cpp",
-  "file": "/home/seidko/dev/clash-mate/qml/app.cpp",
-  "output": "CMakeFiles/qmlapp.dir/app.o"
-}
-]

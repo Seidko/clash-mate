@@ -1,4 +1,6 @@
-void **NewViewer(void *bus, char *source);
+#include <stdint.h>
+
+void **NewViewer(uintptr_t bus, char *source);
 void SetSource(void* ptr, char* url);
 void SetSourceFromQml(void *ptr, char *qml);
 void SetResizeMode(void* ptr, int resizeMode);

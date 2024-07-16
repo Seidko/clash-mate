@@ -1,6 +1,9 @@
 package qml
 
-import "unsafe"
+import (
+	"runtime"
+	"unsafe"
+)
 
 type Application struct {
 	ptr unsafe.Pointer
@@ -10,6 +13,7 @@ type Viewer struct {
 	ptr    unsafe.Pointer
 	bridge unsafe.Pointer
 	Bus    Bus
+	pinner runtime.Pinner
 }
 
 type Attribute int64

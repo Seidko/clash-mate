@@ -1,4 +1,5 @@
 #include <stdbool.h>
+
 void *NewApplication(int argc, char **argv);
 
 void SetAttribute(long long attr, bool on);

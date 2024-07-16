@@ -9,6 +9,7 @@ import "C"
 import (
 	"log"
 	"net/url"
+	"runtime"
 	"unsafe"
 
 	"github.com/fsnotify/fsnotify"
@@ -21,8 +22,14 @@ func NewViewer(source *string) Viewer {
 	}
 	defer C.free(unsafe.Pointer(url))
 	bus := make(chan Event)
-	tuple := (*[2]unsafe.Pointer)(*C.NewViewer(unsafe.Pointer(&bus), url))
-	return Viewer{tuple[0], tuple[1], bus}
+
+	var pinner runtime.Pinner
+	busPtr := unsafe.Pointer(&bus)
+	pinner.Pin(busPtr)
+	ptr := C.NewViewer(C.size_t(uintptr(busPtr)), url)
+	defer C.free(*ptr)
+	tuple := (*[2]unsafe.Pointer)(*ptr)
+	return Viewer{tuple[0], tuple[1], bus, pinner}
 }
 
 func NewViewerFromQml(qml string) Viewer {
