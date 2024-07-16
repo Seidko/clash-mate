@@ -6,5 +6,8 @@ CMakeCache.txt
 Makefile
 build
 clash-mate
+go
+
+libclash.h
 *.o
 *.a

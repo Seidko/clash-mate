@@ -1,14 +1,8 @@
 [
 {
-  "directory": "/home/seidko/dev/clash-mate/qml",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtQmlBuiltins -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtQmlModels -isystem /usr/include/qt6/QtOpenGL -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -mno-direct-extern-access -o CMakeFiles/qmlapp.dir/app.cpp.o -c /home/seidko/dev/clash-mate/qml/app.cpp",
-  "file": "/home/seidko/dev/clash-mate/qml/app.cpp",
-  "output": "qml/CMakeFiles/qmlapp.dir/app.cpp.o"
-},
-{
-  "directory": "/home/seidko/dev/clash-mate/qml",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtQmlBuiltins -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtQmlModels -isystem /usr/include/qt6/QtOpenGL -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -mno-direct-extern-access -o CMakeFiles/qmlapp.dir/viewer.cpp.o -c /home/seidko/dev/clash-mate/qml/viewer.cpp",
-  "file": "/home/seidko/dev/clash-mate/qml/viewer.cpp",
-  "output": "qml/CMakeFiles/qmlapp.dir/viewer.cpp.o"
+  "directory": "/home/seidko/dev/clash-mate",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtQmlBuiltins -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtQmlModels -isystem /usr/include/qt6/QtOpenGL -isystem /usr/lib/qt6/mkspecs/linux-g++  -std=c++11 -std=gnu++23 -mno-direct-extern-access -o CMakeFiles/clash-mate.dir/main.cpp.o -c /home/seidko/dev/clash-mate/main.cpp",
+  "file": "/home/seidko/dev/clash-mate/main.cpp",
+  "output": "CMakeFiles/clash-mate.dir/main.cpp.o"
 }
 ]

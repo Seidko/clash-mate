@@ -1,7 +1,6 @@
 import QtQuick 6.6
 import QtQuick.Controls
 import QtQuick.Layouts
-import 
 
 Rectangle {
     id: page
@@ -14,7 +13,6 @@ Rectangle {
             text: "Hello world!"
             y: 30
             font.pointSize: 24; font.bold: true
-            on
         }
         RowLayout {
             Button {
