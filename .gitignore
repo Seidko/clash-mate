@@ -2,6 +2,7 @@
 .qt
 CMakeFiles
 cmake_install.cmake
+compile_commands.json
 CMakeCache.txt
 Makefile
 build
@@ -11,3 +12,4 @@ go
 libclash.h
 *.o
 *.a
+*.yaml

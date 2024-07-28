@@ -5,12 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Package",
-            "type": "go",
+            "type": "lldb",
             "request": "launch",
-            "mode": "auto",
-            "program": "${workspaceFolder}",
-            "args": ["--dev"]
+            "name": "Launch",
+            "program": "${workspaceFolder}/clash-mate",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "CMake: build",
         }
     ]
 }
