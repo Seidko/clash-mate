@@ -9,6 +9,7 @@ Makefile
 build
 clash-mate
 go
+cmake-build*
 
 libclash.h
 *.o
